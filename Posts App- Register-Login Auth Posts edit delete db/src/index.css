@@ -1,0 +1,25 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family:  'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 850px;
+  max-width: 850px;
+  margin: 0 auto;
+  height: 100%;
+  background-image: url('../src/img/login-background.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+background-size: cover;  color: #2C1015;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
